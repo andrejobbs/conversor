@@ -1,5 +1,5 @@
 import cv2 as cv
-imagem = cv.imread('cidade_3.jpg', cv.IMREAD_UNCHANGED)   
+imagem = cv.imread('/conversor/img_manipular_cor/cidade_3.jpg.jpg', cv.IMREAD_UNCHANGED)   
 imagem_cinza=cv.cvtColor(imagem,cv.COLOR_BGR2GRAY)
 
 cv.imshow('cidade_3.jpg', imagem_cinza) 
